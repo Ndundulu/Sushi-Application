@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character encoding and responsive design -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon for the website -->
+  <link rel="icon" type="image/png" href="/sushi.png"/>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <!-- Title of the webpage -->
+  <title>Sushiman</title>
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+    <!-- Navigation bar -->
+    <nav class="header__nav">
+      <!-- Logo container -->
+      <div class="header__logo">
+        <!-- Logo text -->
+        <h4>Sushiman</h4>
+        <!-- Logo overlay (red background) -->
+        <div class="header__logo-overlay"></div>
+      </div>
+
+      <!-- Desktop menu -->
+      <ul class="header__menu">
+        <!-- Menu items with links -->
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about_us">About Us</a></li>
+        <!-- Search icon -->
+        <li><img src="assets/search.svg" alt="search"/></li>
+      </ul>
+
+      <!-- Mobile menu (hidden by default) -->
+      <ul class="header__menu-mobile">
+        <!-- Mobile menu icon -->
+        <li><img src="assets/menu.svg" alt="Menu" /></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class=" hero-image">
+      <img 
+      src="assets/sushi-1.png" alt="sushi"
+      />
+      <h2>
+      日 <br />
+      本 <br />
+      食 
+      </h2>
+      <div class="hero-image__overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-content-info">
+        <h1>Feel the test of Japanese food</h1>
+        <p> Feel the test of the most popular Japanese food from  anywhere and anytime.</p>
+        <div class="hero-content__buttons">
+          <button class="hero-content__order-button">Order Now</button>
+          <button class="hero-content__play-button"><img src="assets/play-circle.svg" alt="play"/>How to Order</button>
+        </div>
+      </div>
+      <div class="hero-content__testimonial">
+        <div class="hero-content__customer flex-center">
+          <h4>24<span>k+</span></h4>
+          <p>Happy Customer</p>
+        </div>
+        <div class="hero-content__review">
+          <img src="assets/user.png" alt="user" style="width:42%; height: 42%; object-fit:contain"/>
+          <p>"This is the best Japanese food delivery service."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-us" id="about-us">
+    <div class="about-us__image">
+      <div class="about-us__image-sushi3">
+        <img src="assets/sushi-3.png" alt="Sushi"/>
+      </div>
+      <button class="about-us__button">Learn more
+        <img src="assets/arrow-up-right.svg" alt="learn more"/> 
+      </button>
+      <div class="about-us__image-sushi2">
+        <img src="assets/sushi-2.png" alt="Sushi"/>
+      </div>
+    </div>
+    <div class="about-us__content">
+      <p class="sushi__subtitle">About Us 私たちについて> </p>
+      <h3 class="sushi__title">Our mission is to bring true Japanese flavours to you.</h3>
+      <p class="sushi__description">We offer our customers the experience of Omotenashi, the Japanese spirit of heartfelt hospitality, through our shopping and dining services.
+      </p>
+    </div>
+  </section>
+  <section class="popular-foods" id="menu">
+    <h2 class="popular-foods__title">Popular Food / 人気</h2>
+    <div class="popular-foods__filter sushi__hide-scrollbar">
+      <button class="popular-foods__filter-btn active">All</button>
+      <button class="popular-foods__filter-btn"><img src="/assets/sushi-9.png" Alt="Sushi 9"/>Sushi</button>
+      <button class="popular-foods__filter-btn"><img src="/assets/sushi-8.png" Alt="Sushi 8"/>Ramen</button>
+      <button class="popular-foods__filter-btn"><img src="/assets/sushi-7.png" Alt="Sushi 7"/>Udon</button>
+      <button class="popular-foods__filter-btn"><img src="/assets/sushi-6.png" Alt="Sushi 6"/>Danggo</button>
+      <button class="popular-foods__filter-btns">Others</button>
+    </div>
+    <div class="popular-foods__catalogue">
+      
+    </div>
+    <button class="popular-foods__button">Explore </button>
+  </section>
+  <!-- Link to external JavaScript file -->
+  <script src="js/script.js" type="module"></script>
+</body>
+</html>
